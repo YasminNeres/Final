@@ -28,7 +28,7 @@ function DevolverBalizas() {
     $.ajax({
         type: "GET",
         dataType: "html",
-        url: "http://10.10.17.182:5000/api/infoTiempo",
+        url: "http://192.168.56.1:5000/api/infoTiempo",
         headers: {
             accept: "application/json",
             Authorization: "Bearer " + token,
