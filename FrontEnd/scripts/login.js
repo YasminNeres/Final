@@ -6,7 +6,7 @@ function Login() {
     $.ajax({
         type: "POST",
         dataType: "json",
-        url: `http://192.168.56.1:5000/api/Users/Authenticate/username/${document.getElementById('user').value}/password/${document.getElementById('pwd').value}`,
+        url: `http://10.10.17.182:5000/api/Users/Authenticate/username/${document.getElementById('user').value}/password/${document.getElementById('pwd').value}`,
         headers: {
             accept: "application/json",
         }
